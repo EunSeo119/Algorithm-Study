@@ -28,7 +28,3 @@ print(A%B)
 #1152
 word=input().split()
 print(len(word))
-
-word=input().upper()
-word_set=list(set(word))
-count_result=[]
