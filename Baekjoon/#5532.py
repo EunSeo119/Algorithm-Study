@@ -1,0 +1,14 @@
+L=int(input())
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+acount=0
+bcount=0
+while(A>0):
+    A-=C
+    acount+=1
+while(B>0):
+    B-=D
+    bcount+=1
+print(L-max(acount,bcount))
